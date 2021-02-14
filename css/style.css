@@ -1,0 +1,227 @@
+@font-face {
+  src: url(../assets/font/Roboto-Regular.ttf);
+  font-family: Roboto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+  background-color: #f8f8f8;
+}
+
+#scrollToTop {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  -webkit-box-shadow: 0 4px 4px #070707;
+          box-shadow: 0 4px 4px #070707;
+  outline: none;
+  cursor: pointer;
+}
+
+#navbar > .navbar {
+  background-color: #f8f8f8;
+}
+
+#navbar > .navbar a.navbar-brand {
+  color: #c10d0d;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#navbar > .navbar a.navbar-brand span {
+  color: #070707;
+}
+
+#navbar > .navbar .navbar-toggler {
+  width: 47px;
+  height: 34px;
+  background-color: #c10d0d;
+}
+
+#navbar > .navbar .navbar-toggler .line {
+  width: 100%;
+  float: left;
+  height: 2px;
+  background-color: #f8f8f8;
+  margin-bottom: 5px;
+}
+
+#navbar > .navbar .navbar-nav {
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#navbar > .navbar .navbar-nav .nav-link {
+  margin-left: 10px;
+  display: inline-block;
+  color: #c10d0d;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+#navbar > .navbar .navbar-nav .nav-link::before {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: transparent;
+  -webkit-transition: width .3s;
+  transition: width .3s;
+}
+
+#navbar > .navbar .navbar-nav .nav-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #c10d0d;
+  -webkit-transition: width .3s;
+  transition: width .3s;
+}
+
+#navbar > .navbar .navbar-nav .nav-link:hover::after {
+  width: 100%;
+}
+
+#navbar > .navbar .navbar-nav .started {
+  margin-left: 10px;
+  padding: 10px 20px;
+  background-color: #c10d0d;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+#navbar > .navbar .navbar-nav .started a {
+  color: #c10d0d;
+  font-family: 'Roboto';
+  font-size: 16px;
+  text-transform: none;
+  color: #f8f8f8;
+}
+
+#navbar > .navbar .navbar-nav .started:hover {
+  background-color: #f8f8f8;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+#navbar > .navbar .navbar-nav .started:hover a {
+  color: #c10d0d;
+}
+
+#jumbotron > .jumbotron {
+  background: #c10d0d;
+  background: -webkit-gradient(linear, left top, right top, from(#c10d0d), to(#f25353));
+  background: linear-gradient(90deg, #c10d0d 0%, #f25353 100%);
+  margin-top: 62px;
+  padding: 50px 0;
+  height: 600px;
+  color: #f8f8f8;
+  position: relative;
+}
+
+#jumbotron > .jumbotron .o-btn {
+  border: 2px solid #f8f8f8;
+  background-color: transparent;
+  color: #f8f8f8;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+#jumbotron > .jumbotron .o-btn a {
+  color: #f8f8f8;
+}
+
+#jumbotron > .jumbotron .o-btn:hover {
+  background-color: #f8f8f8;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#jumbotron > .jumbotron .o-btn:hover a {
+  color: #c10d0d;
+}
+
+#jumbotron > .jumbotron svg {
+  position: absolute;
+  bottom: -2px;
+  width: 100%;
+}
+
+#about > .about {
+  padding: 100px 0;
+  color: #070707;
+}
+
+#about > .about img {
+  width: 80%;
+}
+
+#about > .about h3 {
+  font-weight: bold;
+}
+
+#about > .about p {
+  text-align: justify;
+}
+
+#feature > .feature {
+  padding: 100px 0;
+  color: #070707;
+}
+
+#feature > .feature h3 {
+  font-weight: bold;
+}
+
+#feature > .feature ul {
+  list-style: none;
+  padding: 0;
+}
+
+#feature > .feature li {
+  font-size: 17px;
+}
+
+#feature > .feature li i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+#contact > .contact {
+  padding: 100px 0;
+  color: #070707;
+}
+
+#contact > .contact h1 {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+#contact > .contact .form .form-group {
+  margin-bottom: 10px;
+}
+
+#contact > .contact .form .form-group .form-control:focus {
+  outline: 2px solid #c10d0d;
+}
+
+#contact > .contact .form button {
+  background-color: #c10d0d;
+}
+/*# sourceMappingURL=style.css.map */

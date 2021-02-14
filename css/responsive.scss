@@ -1,0 +1,334 @@
+@media screen and (max-width: 576px) {
+
+    #jumbotron > .jumbotron {
+        margin-top: 59px;
+        height: 600px;
+
+        .row {
+            text-align: center;
+        }
+
+        .j-text {
+            margin-top: 20px;
+            h1 {
+                font-size: 25px;
+            }
+            p {
+                font-size: 12px;
+            }
+        }
+
+        .j-img {
+            img {
+                width: 80%;
+            }
+        }
+    }
+
+    #about > .about {
+
+        .row {
+            text-align: center;
+        }
+
+        img {
+            width: 80%;
+        }
+
+        h3 {
+            font-size: 25px;
+        }
+
+        p {
+            font-size: 12px;
+        }
+    }
+
+    #feature > .feature {
+
+        h3 {
+            font-size: 25px;
+        }
+
+        li {
+            font-size: 18px;
+            margin-bottom: 10px;
+            
+            i {
+                font-size: 18px;
+            }
+        }
+        
+    }
+
+    #contact > .contact {
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+    }
+
+}
+
+@media screen and (min-width: 576px) {
+
+    #jumbotron > .jumbotron {
+        margin-top: 59px;
+        height: 600px;
+
+        .row {
+            text-align: center;
+        }
+
+        .j-text {
+            margin-top: 20px;
+            h1 {
+                font-size: 30px;
+            }
+            p {
+                font-size: 15px;
+            }
+        }
+
+        .j-img {
+            img {
+                width: 300px;
+            }
+        }
+    }
+
+    #about > .about {
+
+        .row {
+            text-align: center;
+        }
+
+        img {
+            width: 80%;
+        }
+
+        h3 {
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 15px;
+        }
+    }
+
+    #feature > .feature {
+
+        h3 {
+            font-size: 30px;
+        }
+
+        li {
+            font-size: 20px;
+            margin-bottom: 10px;
+            
+            i {
+                font-size: 20px;
+            }
+        }
+        
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+
+    #jumbotron > .jumbotron {
+        margin-top: 59px;
+        height: 400px;
+
+        .j-text {
+            text-align: left;
+            h1 {
+                font-size: 25px;
+            }
+            p {
+                font-size: 10px;
+            }
+        }
+
+        .j-img {
+            img {
+                width: 250px;
+            }
+        }
+    }
+
+    #about > .about {
+
+        img {
+            width: 80%;
+        }
+
+        h3 {
+            font-size: 25px;
+        }
+
+    }
+
+    #feature > .feature {
+
+        h3 {
+            font-size: 25px;
+        }
+
+        li {
+            font-size: 15px;
+            margin-bottom: 10px;
+            
+            i {
+                font-size: 15px;
+            }
+        }
+        
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+
+    #jumbotron > .jumbotron {
+        margin-top: 62px;
+        height: 450px;
+    }
+
+    #about > .about {
+
+        img {
+            width: 80%;
+        }
+
+    }
+
+    #feature > .feature {
+
+        li {
+            font-size: 19px;
+            margin-bottom: 10px;
+            
+            i {
+                font-size: 19px;
+            }
+        }
+        
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    #jumbotron > .jumbotron {
+        margin-top: 62px;
+        height: 600px;
+
+        .j-text {
+            h1 {
+                font-size: 50px;
+            }
+            p {
+                font-size: 15px;
+            }
+        }
+
+        .j-img {
+            img {
+                width: 400px;
+            }
+        }
+    }
+
+    #about > .about {
+
+        img {
+            width: 80%;
+        }
+
+        h3 {
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 15px;
+        }
+
+    }
+
+    #feature > .feature {
+
+        h3 {
+            font-size: 30px;
+        }
+
+        #feature > .feature {
+
+            li {
+                font-size: 19px;
+                margin-bottom: 10px;
+                
+                i {
+                    font-size: 19px;
+                }
+            }
+            
+        }
+
+    }
+
+}
+
+@media screen and (min-width: 1400px) {
+
+    #jumbotron > .jumbotron {
+        margin-top: 62px;
+        height: 800px;
+
+        .j-text {
+            h1 {
+                font-size: 50px;
+            }
+            p {
+                font-size: 20px;
+            }
+        }
+
+        .j-img {
+            img {
+                width: 500px;
+            }
+        }
+    }
+
+    #about > .about {
+
+        img {
+            width: 80%;
+        }
+
+        h3 {
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+    }
+
+    #feature > .feature {
+
+        h3 {
+            font-size: 40px;
+        }
+
+        li {
+            font-size: 20px;
+        }
+        
+    }
+
+}

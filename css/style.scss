@@ -1,0 +1,258 @@
+// Font
+
+@font-face {
+    src: url(../assets/font/Roboto-Regular.ttf);
+    font-family: Roboto;
+}
+
+
+// Variables
+
+$m1 : #c10d0d;
+$m2 : #f25353;
+$white : #f8f8f8;
+$black : rgb(7, 7, 7);
+
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    background-color: $white;
+}
+
+
+// Button ScrollToTop
+
+#scrollToTop {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    box-shadow: 0 4px 4px $black;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+
+
+// Navbar
+
+#navbar > .navbar {
+    background-color: $white;
+
+    a.navbar-brand {
+        color: $m1;
+        font-size: 20px;
+        font-weight: bold;
+
+        span {
+            color: $black;
+        }
+    }
+
+    .navbar-toggler{
+        width: 47px;
+        height: 34px;
+        background-color: $m1;
+
+        .line{
+            width: 100%;
+            float: left;
+            height: 2px;
+            background-color: $white;
+            margin-bottom: 5px;
+        }
+    }
+
+    .navbar-nav {
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+
+        .nav-link {
+            margin-left: 10px;
+            display: inline-block;
+            color: $m1;
+            text-decoration: none;
+            font-weight: bolder;
+
+            &::before {
+                content: '';
+                display: block;
+                width: 0;
+                height: 2px;
+                background: transparent;
+                transition: width .3s;
+            }
+
+            &::after {
+                content: '';
+                display: block;
+                width: 0;
+                height: 2px;
+                background: $m1;
+                transition: width .3s;
+            }
+
+            &:hover::after {
+                width: 100%;
+                //transition: width .3s;
+            }
+        }
+
+        .started {
+            margin-left: 10px;
+            padding: 10px 20px;
+            background-color: $m1;
+            transition: .5s;
+            
+            a {
+                color: $m1;
+                font-family: 'Roboto';
+                font-size: 16px;
+                text-transform: none;
+                color: $white;
+            }
+
+            &:hover {
+                background-color: $white;
+                transition: .5s;
+
+                a {
+                    color: $m1;
+                }
+            }
+        }
+    }
+}
+
+
+
+// Jumbotron
+
+#jumbotron > .jumbotron {
+    background: rgb(193,13,13);
+    background: linear-gradient(90deg, rgba(193,13,13,1) 0%, rgba(242,83,83,1) 100%);
+    margin-top: 62px;
+    padding: 50px 0;
+    height: 600px;
+    color: $white;
+    position: relative;
+
+    .o-btn {
+        border: 2px solid #f8f8f8;
+        background-color: transparent;
+        color: #f8f8f8;
+        padding: 10px 20px;
+        margin-top: 20px;
+
+        a {
+            color: #f8f8f8;
+        }
+
+        &:hover {
+            background-color: #f8f8f8;
+            transition: 0.5s;
+
+            a {
+                color: $m1;
+            }
+        }
+    }
+
+    svg {
+        position: absolute;
+        bottom: -2px;
+        width: 100%;
+    }
+}
+
+
+
+// About
+
+#about > .about {
+    padding: 100px 0;
+    color: $black;
+    
+    img {
+        width: 80%;
+    }
+
+    h3 {
+        font-weight: bold;
+    }
+
+    p {
+        text-align: justify;
+    }
+
+}
+
+
+
+// Feature
+
+#feature > .feature {
+    padding: 100px 0;
+    color: $black;
+
+    h3 {
+        font-weight: bold;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    li {
+        font-size: 17px;
+
+        i {
+            font-size: 20px;
+            margin-right: 10px;
+        }
+    }
+}
+
+
+
+// Information
+
+#contact > .contact {
+    padding: 100px 0;
+    color: $black;
+
+    h1 {
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+    .form {
+        .form-group {
+            margin-bottom: 10px;
+
+            .form-control:focus {
+                outline: 2px solid $m1;
+            }
+        }
+
+        button {
+            background-color: $m1;
+        }
+    }
+
+}
